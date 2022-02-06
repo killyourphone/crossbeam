@@ -60,6 +60,9 @@ const NO_ATOMIC_64: &[&str] = &[
     "thumbv8m.base-none-eabi",
     "thumbv8m.main-none-eabi",
     "thumbv8m.main-none-eabihf",
+    "xtensa-esp32-espidf",
+    "xtensa-esp32s2-espidf",
+    "xtensa-esp32s3-espidf",
 ];
 
 #[allow(dead_code)] // Only crossbeam-utils uses this.

@@ -56,6 +56,9 @@ for target in "${no_atomic_64[@]}"; do
     echo "    \"${target}\"," >>"${file}"
 done
 cat >>"${file}" <<EOF
+"xtensa-esp32-espidf",
+"xtensa-esp32s2-espidf",
+"xtensa-esp32s3-espidf",
 ];
 
 #[allow(dead_code)] // Only crossbeam-utils uses this.
